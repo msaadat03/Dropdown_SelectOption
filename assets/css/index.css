@@ -1,0 +1,60 @@
+body{
+    background: #E3F2FD;
+}
+
+.select-menu {
+    width: 165px;
+    margin: 15px auto;
+}
+
+.select-menu .select-btn{
+        display: flex;
+    height: 2px;
+    background-color: #fff;
+    padding: 19px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 0px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+}
+.d-none{
+    display: none;
+}
+
+.select-menu .active .options{
+    display: block;
+}
+
+ul.options {
+    margin-left: 638px;
+}
+
+.options .option {
+    width: 121px;
+    display: flex;
+    height: 43px;
+    cursor: pointer;
+    padding: 0 22px;
+    align-items: center;
+    background: #fff;
+}
+
+.options .option:hover{
+    background: #F2F2F2;
+}
+
+.option img{
+    margin-right: 12px;
+}
